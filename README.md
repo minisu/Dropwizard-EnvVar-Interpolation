@@ -1,4 +1,4 @@
-DW-env
+Dropwizard Environment Variable Interpolation
 ======
 
 Interpolates environment variables in Dropwizard YAML configurations.
