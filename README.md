@@ -14,3 +14,7 @@ mongo:
   host: ${MONGO_HOST}
   port: ${MONGO_PORT}
 ```
+
+## Notes ##
+This bundle will fail fast, i.e. if an environment variable is not found, it will throw an `EnvironmentException`:
+`EnvironmentException: The environment variable 'MONGO_HOST' is not defined; could not substitute the expression '${MONGO_HOST}'.`
