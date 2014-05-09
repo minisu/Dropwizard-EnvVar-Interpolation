@@ -1,4 +1,4 @@
-package io.dropwizard.ga;
+package minisu.dropwizard.interpolation;
 
 import org.apache.commons.lang.text.StrLookup;
 import org.apache.commons.lang.text.StrSubstitutor;
@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 
-import static io.dropwizard.ga.SubstitutingSourceProvider.convertStreamToString;
+import static minisu.dropwizard.interpolation.SubstitutingSourceProvider.convertStreamToString;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 

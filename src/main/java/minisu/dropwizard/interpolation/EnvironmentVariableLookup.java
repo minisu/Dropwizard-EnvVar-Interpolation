@@ -1,4 +1,4 @@
-package io.dropwizard.ga;
+package minisu.dropwizard.interpolation;
 
 import org.apache.commons.lang.text.StrLookup;
 

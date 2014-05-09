@@ -1,4 +1,4 @@
-package io.dropwizard.ga;
+package minisu.dropwizard.interpolation;
 
 import io.dropwizard.configuration.ConfigurationSourceProvider;
 
