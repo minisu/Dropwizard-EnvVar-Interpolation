@@ -8,7 +8,7 @@ public void initialize( Bootstrap bootstrap ) {
 ```
 
 ### In your YAML configuration ###
-```java
+```yaml
 # This is just an example
 mongo:
   host: ${MONGO_HOST}
