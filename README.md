@@ -3,8 +3,11 @@ Interpolates environment variables in Dropwizard YAML configurations.
 ## Usage ##
 ### In your Application class ###
 ```java
-public void initialize( Bootstrap bootstrap ) {
-	bootstrap.addBundle( new EnvironmentVariableInterpolationBundle() );
+public void initialize(Bootstrap bootstrap) {
+	bootstrap.addBundle(new EnvironmentVariableInterpolationBundle());
+	
+	// ...
+}
 ```
 
 ### In your YAML configuration ###
